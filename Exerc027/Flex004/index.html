@@ -7,20 +7,22 @@
     <style>
         div.container {
             background-color: lightsalmon;
+            height: 300px;
+            align-items: stretch;
 
             display: flex;
             /*flex-direction: row;
             flex-wrap: nowrap;*/
             flex-flow: row nowrap;
+            justify-content: space-around;
         } 
 
         div.item {
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            /*Para o background do pai aparecer quando sobrar espaço*/
-            /*flex: auto;*/
-            flex: auto;
+            /*Para o background do pai aparecer quando sobrar espaço, 
+            não utiçlizar o: flex: auto; */
         }
     </style>
 </head>
