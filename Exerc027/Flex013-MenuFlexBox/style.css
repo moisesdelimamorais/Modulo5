@@ -22,19 +22,21 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
-    /* dotted = pontilhado*/
-    border: 1px dotted black;
+    /* dotted = pontilhado
+    border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 4px 4px 0px rgb(0, 0, 0, 0.404);
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: flex-end;    
 }
 
 header > nav > a {
